@@ -1,0 +1,24 @@
+{
+  "name": "jDetectBrowser",
+  "homepage": "https://github.com/null-none/jDetectBrowser",
+  "authors": [
+    "Dmitry Kalinin <dmitry.kalinin.email@gmail.com>"
+  ],
+  "description": "Jquery plugin for detect browsers",
+  "main": "jDetectBrowser.js",
+  "keywords": [
+    "browsers",
+    "os",
+    "version"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
