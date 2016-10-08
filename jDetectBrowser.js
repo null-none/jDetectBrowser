@@ -106,5 +106,3 @@
     };
 
 }(jQuery));
-
-console.log($("div").browserDetect()['OS']);
