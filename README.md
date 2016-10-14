@@ -20,6 +20,12 @@ bower install jDetectBrowser
 $(".os").browserDetect()['OS'];
 $(".version").browserDetect()['version'];
 $(".browser").browserDetect()['browser'];
+$(".userAgent").browserDetect()['userAgent'];
+$(".platform").browserDetect()['platform'];
+$(".language").browserDetect()['language'];
+$(".product").browserDetect()['product'];
+$(".appVersion").browserDetect()['appVersion'];
+$(".javaEnabled").browserDetect()['javaEnabled'];
 ```
 
 ## License

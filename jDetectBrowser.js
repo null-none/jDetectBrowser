@@ -99,6 +99,30 @@
             return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
         }
 
+        this.userAgent = function() {
+          return navigator.userAgent;
+        }
+
+        this.platform = function() {
+          return navigator.platform;
+        }
+
+        this.language = function() {
+          return navigator.language;
+        }
+
+        this.product = function() {
+          return navigator.product;
+        }
+
+        this.appVersion = function() {
+          return navigator.appVersion;
+        }
+
+        this.javaEnabled = function() {
+          return navigator.javaEnabled;
+        }
+
         this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
         this.version = this.searchVersion(navigator.userAgent) || this.searchVersion(navigator.appVersion) || "an unknown version";
         this.OS = this.searchString(this.dataOS) || "an unknown OS";
